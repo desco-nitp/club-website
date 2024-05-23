@@ -1,8 +1,12 @@
 import React from 'react'
+import NavBar from '../components/navbar/navbar'
 
 function EventsPage() {
   return (
-    <div>EventsPage</div>
+    
+    <div>
+    <NavBar />
+    EventsPage</div>
   )
 }
 
