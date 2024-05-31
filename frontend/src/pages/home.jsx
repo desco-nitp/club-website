@@ -5,7 +5,7 @@ import Pi from "../components/pi/pisection";
 import Hero from "../components/herosection/hero";
 function HomePage() {
   return (
-    <main className="bg-[#FEB5B5] h-[100vh] pt-6">
+    <main className="bg-[#FEB5B5] h-[500vh] pt-6 ">
       <NavBar />
 
       <Hero />
