@@ -1,34 +1,28 @@
-import React from 'react'
-import NavBar from '../components/navbar/navbar'
+import React from "react";
+import NavBar from "../components/navbar/navbar";
+import Faq from "../components/faq/faq";
+import Pi from "../components/pi/pisection";
+import Hero from "../components/herosection/hero";
 function HomePage() {
   return (
-    <main className='bg-[#FEB5B5] h-[100vh] pt-6' >
+    <main className="bg-[#FEB5B5] h-[100vh] pt-6">
       <NavBar />
 
-
-      {/* HeroSection */}
-      
+      <Hero />
 
       {/* Vision */}
 
-
       {/* provide */}
 
+      <Pi />
 
-      {/* pi */}
-
-
-      {/* faq */}
-
+      <Faq />
 
       {/* get in touch */}
 
-
       {/* footer */}
-      
-      
     </main>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
