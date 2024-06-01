@@ -4,7 +4,7 @@ import circle from './Frame.png'
 import square from './Frame2.png'
 const Vision = () => {
   return (
-    <div className='  flex h-[550px]'>
+    <div className='  flex h-[550px] my-20'>
         <div className='flex justify-center items-center  w-[50%] border-yellow-950'>
           <div className='h-[26rem] drop-shadow-2xl bg-white border-black mx-24 w-[45rem] border-2 rounded-2xl ' style={{"filter": "drop-shadow( #FE3D4D 23px 15px 0px)"}}>
             <h3 className='syne-fon font-extrabold leading-3 text-4xl my-2  mx-2 p-7 '>Our Vision</h3>
