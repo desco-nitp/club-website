@@ -3,7 +3,11 @@ import NavBar from "../components/navbar/navbar";
 import Faq from "../components/faq/faq";
 import Pi from "../components/pi/pisection";
 import Hero from "../components/herosection/hero";
+
 import GetInTouch from "../components/getInTouch/getInTouch";
+
+
+import Provide from "../components/provide/provide";
 
 function HomePage() {
   return (
@@ -14,7 +18,7 @@ function HomePage() {
 
       {/* Vision */}
 
-      {/* provide */}
+      <Provide />
 
       <Pi />
 
