@@ -6,7 +6,7 @@ const Pi=()=>{
     return (
         <>
             <div className="mt-16  w-[100%]  syne-fon static" >
-                <div className="absolute lg:right-20 lg:top-28 right-3 top-32">
+                <div className="absolute lg:right-20  right-3 -mt-10">
                     <img src={Star} alt="stars" className="lg:h-32 h-20 w-auto   " />
                 </div>
                 <div className="bg-[#F06A75] mx-auto  px-5 md:px-16 py-8 w-[85%] border-[2.4px] border-black rounded-[2.5rem]">
