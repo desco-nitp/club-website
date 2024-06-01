@@ -4,5 +4,9 @@
     font-style: normal;
   }
 
-
-
+  .footer{
+    position: relative;
+    width: 100%;
+    top: 410vh;
+    bottom: -10px;
+  }

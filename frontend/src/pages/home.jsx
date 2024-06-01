@@ -1,13 +1,14 @@
 import React from "react";
+
 import NavBar from "../components/navbar/navbar";
 import Faq from "../components/faq/faq";
 import Pi from "../components/pi/pisection";
 import Hero from "../components/herosection/hero";
-
+import Footer from "../components/footer/footer";
+import Vision from "../components/vision/vision";
 import GetInTouch from "../components/getInTouch/getInTouch";
-
-
 import Provide from "../components/provide/provide";
+
 
 function HomePage() {
   return (
@@ -16,7 +17,7 @@ function HomePage() {
 
       <Hero />
 
-      {/* Vision */}
+      <Vision />
 
       <Provide />
 
@@ -26,7 +27,7 @@ function HomePage() {
 
       <GetInTouch />
 
-      {/* footer */}
+      <Footer />
     </main>
   );
 }
