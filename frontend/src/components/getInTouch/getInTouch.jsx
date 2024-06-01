@@ -1,6 +1,7 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import "../../App.css"
 import Image from "./MapImage.jpg";
 import Vector from "./Vector.png";
 import Vector1 from "./Vector1.png";
@@ -12,8 +13,8 @@ const GetInTouch = () => {
         <div className="bg-[#E0767F]  flex flex-col sm:flex sm:flex-row mt-[50rem] md:mt-[40rem] h-fit py-6 sm:py-8 md:py-10 lg:py-12 xl:py-16">
             <div className="flex flex-col sm:w-1/2 px-10 sm:px-12 md:px-14 lg:px-[5rem] xl:px-20">
                 <div className="font-bold text-white text-3xl md:text-4xl lg:text-5xl pb-2 md:pb-3 lg:pb-4 xl-pb-6">
-                    <span className="text-white">Get in </span>
-                    <span className="text-[#222020]">Touch</span>
+                    <span className="text-white syne-fon">Get in </span>
+                    <span className="text-[#222020] syne-fon">Touch</span>
                 </div>
                 <div className="text-white text-[0.8rem] sm:text-[0.6rem] md:text-[0.7rem] lg:text-sm xl:text-base pb-2 md:pb-3 lg:pb-4 xl-pb-6" style={{ lineHeight: '1.2' }}>
                 Feel free to get in touch with us. We are open to discuss new projects, creative ideas or opportunities to be part of your visions.

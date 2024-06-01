@@ -14,7 +14,7 @@ const Card = () => {
   }, []);
 
   return (
-    <div className="container syne-fon flex justify-center items-center flex-wrap z-10 mx-auto">
+    <div className="container syne-fon flex justify-center items-center flex-wrap z-10 mx-auto mt-10">
       <div class="card " id="card1">
   <div class="content">
     <h2>01</h2> 
