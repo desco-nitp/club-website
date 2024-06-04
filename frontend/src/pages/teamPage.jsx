@@ -1,8 +1,17 @@
 import React from 'react'
 
+import NavBar from '../components/navbar/navbar'
+import Footer from '../components/footer/footer'
+
 function TeamPage() {
   return (
-    <div>TeamPage</div>
+    <main className="bg-[#FEB5B5] h-[600vh] pt-6 ">
+      <NavBar />
+
+      
+
+      
+    </main>
   )
 }
 
