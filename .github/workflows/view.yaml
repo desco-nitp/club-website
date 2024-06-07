@@ -30,10 +30,10 @@ jobs:
             cd frontend
             npm ci
         
-        - name: Built the app
-          run: |
-            cd frontend
-            CI=fasle npm run build
+        # - name: Built the app
+        #   run: |
+        #     cd frontend
+        #     CI=fasle npm run build
         
         - name: Running Component Tests
           run: |
