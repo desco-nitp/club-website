@@ -7,7 +7,6 @@ function WorksPage() {
   return (
     <main className="bg-[#FEB5B5] h-[600vh] pt-6 ">
       <NavBar />
-
       
 
       
