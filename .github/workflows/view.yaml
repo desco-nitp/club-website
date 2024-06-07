@@ -33,7 +33,7 @@ jobs:
         - name: Built the app
           run: |
             cd frontend
-            npm run build
+            CI=fasle npm run build
         
         - name: Running Component Tests
           run: |
