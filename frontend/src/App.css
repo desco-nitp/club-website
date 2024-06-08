@@ -3,6 +3,12 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+  .bowlby-one {
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
   .dropp-shadow {
     filter: drop-shadow( #FE3D4D 23px 15px 0px);
   }
