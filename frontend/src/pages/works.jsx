@@ -1,7 +1,7 @@
 import React from 'react'
 
 import NavBar from '../components/navbar/navbar'
-import WorkHero from '../WorkPage/work_herosection/work_hero'
+import WorkHero from '../components/works/works_herosection/works_hero'
 import Footer from '../components/footer/footer'
 
 function WorksPage() {
