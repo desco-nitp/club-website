@@ -19,7 +19,7 @@ const HeroBlogs = () => {
       ></img>
       <img
         src={Circles}
-        className="hidden lg:block absolute h-[14%] left-[4rem] top-[16rem]"
+        className="hidden lg:block absolute h-[14%] left-[4rem] top-[16rem] mt-10 md:mt-0"
       ></img>
       <img
         src={Sparkles}
