@@ -34,7 +34,7 @@ const WorkHero = () => {
                         <img src={V6} alt="Vector" className="h-[1rem] sm:h-[1.5rem] lg:h-[2rem] xl:h-[3rem]"/>
                     </div>
                     <div>
-                        <div className="syne-fon text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] xl:text-[4.5rem] text-white stroke-black stroke-2 font-extrabold  text-shadow  relative z-20">
+                        <div className="syne-fon text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3.5rem] xl:text-[4.5rem] text-white font-extrabold  text-shadow  relative z-20">
                             Our Works
                         </div>
                     </div>
