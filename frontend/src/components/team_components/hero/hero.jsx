@@ -3,12 +3,11 @@ import React, { useState } from "react";
 import {  motion,useMotionValueEvent,useScroll } from "framer-motion"
 // import Domains from "./domains";
 import Circle from "./circle.webp";
-import D2 from "./D2.webp";
 import Cross from "./cross.webp";
 import vector from "./Vector.png";
 import left from "./left.png";
 import right from "./right.png";
-import rou from "./D1.webp";
+
 const Hero = () => {
     const {scrollY}=useScroll();
     const [m,setm]=useState(360);
@@ -29,7 +28,7 @@ const Hero = () => {
             <div className="md:grid md:grid-cols-2  h-[55vh] md:h-[45vh] lg:h-[80vh]">
                 <div className=" h-full w-full flex flex-col justify-center px-16">
                     <div className="absolute top-8 -left-14">                   
-                            <img src={Circle} alt="" className="h-[20rem] md:h-[25rem] lg:h-[33rem] "  />
+                            <img src={Circle} alt="" className="h-[20rem] md:h-[25rem] lg:h-[33rem] mt-10 md:mt-0"  />
                     </div>
                     <div className="text-[3rem] lg:text-[6rem]  lg:mt-24 w-[50%] font-semibold z-20" >
                         
