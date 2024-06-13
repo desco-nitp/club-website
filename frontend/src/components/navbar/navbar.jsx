@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import HorizontalNav from './horizontalnav'
 import TemporaryDrawer from './drawer'
 const NavBar=()=>{
-    console.log(window.screen.width+"\\"+window.screen.height);
+    // console.log(window.screen.width+"\\"+window.screen.height);
     const [width,setwidth]=useState(window.screen.width);
     window.addEventListener('resize',()=>{
         setwidth(window.screen.width);
