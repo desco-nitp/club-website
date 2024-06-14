@@ -24,7 +24,7 @@ const Hero=()=>{
             <div className="md:grid md:grid-cols-2  h-[55vh] md:h-[45vh] lg:h-[80vh]">
                 <div className=" h-full w-full flex flex-col justify-center px-16">
                     <div className="absolute top-8 -left-14">                   
-                            <img src={Circle} alt="" className="h-[20rem] md:h-[25rem] lg:h-[33rem] mt-10 md:mt-0"  />
+                            <img src={Circle} alt="" data-testid="testing-circle" className=" h-[20rem] md:h-[25rem] lg:h-[33rem] mt-10 md:mt-0"  />
                     </div>
                     <div className="text-[3rem] lg:text-[6rem]  lg:mt-24 w-[50%] font-semibold z-20" >
                         <div className="flex items-center">
