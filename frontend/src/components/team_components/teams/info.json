@@ -56,7 +56,23 @@
         "linkedin":"https://www.linkedin.com/in/sameer-choudhary-2255ab222/"
     },
     {
-        "id": 7,
+        "id": 8,
+        "img":"./img.png",
+        "name": "Sameer Choudhary",
+        "designation": "Chairperson",
+        "ig":"https://www.instagram.com/sam_zorroak/",
+        "linkedin":"https://www.linkedin.com/in/sameer-choudhary-2255ab222/"
+    },
+    {
+        "id": 9,
+        "img":"./img.png",
+        "name": "Sameer Choudhary",
+        "designation": "Chairperson",
+        "ig":"https://www.instagram.com/sam_zorroak/",
+        "linkedin":"https://www.linkedin.com/in/sameer-choudhary-2255ab222/"
+    },
+    {
+        "id": 10,
         "img":"./img.png",
         "name": "Sameer Choudhary",
         "designation": "Chairperson",
