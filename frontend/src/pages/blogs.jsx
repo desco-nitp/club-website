@@ -4,6 +4,7 @@ import Footer from "../components/footer/footer";
 import HeroBlogs from "../components/blogs/hero";
 import Latest from '../components/blogs/latest'
 import TempImage from '../components/blogs/temp.jpg'; 
+import Part1 from "../components/blogs/part1";
 function BlogsPage() {
   let data = [
     {src: TempImage, title: "1lorem ipsum"},
@@ -17,15 +18,19 @@ function BlogsPage() {
     {src: TempImage, title: "9lorem ipsum"}
   ];
   return (
-    <>
-        <main className="bg-[#FEB5B5] h-[200vh] pt-6 ">
+    
+        <main className="bg-[#FEB5B5] h-[280vh] pt-6 ">
       <NavBar />
       <HeroBlogs />
-      <Latest data={data}/>
       
+      
+      
+      <Part1 />
+      <Latest data={data}/>
+      <Footer />
     </main>
-    <Footer/>
-    </>
+    
+    
     
   );
 }

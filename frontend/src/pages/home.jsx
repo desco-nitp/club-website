@@ -10,11 +10,12 @@ import GetInTouch from "../components/getInTouch/getInTouch";
 import Provide from "../components/provide/provide";
 
 
+
 function HomePage() {
   return (
     <main className="bg-[#FEB5B5] h-[578vh] sm:h-[600vh] pt-6 ">
       <NavBar />
-
+      
       <Hero />
 
       <Vision />

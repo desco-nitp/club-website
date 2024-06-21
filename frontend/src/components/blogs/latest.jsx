@@ -32,7 +32,7 @@ const Latest = (props) => {
  
   return (
 
-    <div className='relative z-30 w-[100%] flex justify-center items-center '>
+    <div className='relative my-14 z-30 w-[100%] flex justify-center items-center '>
       {/*  h-36 top-[52vh] right-24 */}
                 <img className='absolute h-24 right-7 top-[-4vh] sm:h-36  sm:right-20 sm:top-[-7vh]' src={topRight} alt="" /> 
                 <img className='absolute h-12 left-5 top-[-3vh] sm:h-20 sm:left-24 sm:top-[-7vh] ' src={topLeft} alt="" />
