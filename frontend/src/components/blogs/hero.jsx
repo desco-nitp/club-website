@@ -5,7 +5,7 @@ import Circles from "./circles.webp";
 
 const HeroBlogs = () => {
   return (
-    <div className="bg-[#FEB5B5] h-[200vh] pt-48 px-32 font-[Syne] margin-auto flex flex-row justify-center">
+    <div className="  border-white bg-[#FEB5B5] h-[60vh] pt-48 px-32 font-[Syne] margin-auto flex flex-row justify-center">
       <div className="font-extrabold flex text-center flex-col md:flex-row text-2xl md:text-4xl lg:text-5xl md:place-items-end h-14 md:h-20 lg:h-28 ">
         Read our
         <p className="h-14 md:h-20 lg:h-28 w-max font-extrabold md:hidden text-2xl md:text-4xl lg:text-5xl flex flex-row md:place-items-end margin-auto text-center">

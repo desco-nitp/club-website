@@ -7,8 +7,8 @@ const Vision = () => {
   return (
     <div className='  flex h-[550px] my-20'>
         <div className='flex justify-center items-center  w-[50%] border-yellow-950'>
-          <div className='h-[22rem] sm:h-[28rem] dropp-shadow bg-white border-black mx-24 w-[45rem] border-2 rounded-2xl ' >
-            <h3 className='syne-fon font-extrabold leading-3 sm:text-4xl my-2  mx-2 p-4 sm:p-7 '>Our Vision</h3>
+          <div className='h-[22rem] sm:h-[28rem] dropp-shadow bg-white border-black mx-12 w-[45rem] border-2 rounded-2xl ' >
+            <h3 className='syne-fon font-extrabold sm:leading-3 sm:text-4xl my-2  mx-2 p-4 sm:p-7 '>Our Vision</h3>
             <div className='border-b-4 ml-11 w-[42%] rounded-lg border-[#8C9C4E]'></div>
             <div>
               <ul className='list-inside mx-4 sm:mx-7 sm:py-3 sm:px-11 px-4 sm:leading-normal text-xs  sm:text-xl font-medium syne-fon' style={{"list-style":"square"}}>
