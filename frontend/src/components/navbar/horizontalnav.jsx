@@ -9,7 +9,7 @@ function HorizontalNav() {
             <p className='text-white text-xl'>Design Company</p>
         </div>
         <div className="lg:w-[35rem] sm:w-[25rem] h-12 bg-transparent text-sm lg:text-lg border text-white border-white rounded-full flex justify-around items-center px-5">
-            <Link to="/" data-testid="testing">Home</Link>
+            <Link to="/" >Home</Link>
             <Link to="/works" alt="/">Works</Link>
             <Link to="/events" alt="/">Events</Link>
             <Link to="/team" alt="/">Team</Link>
