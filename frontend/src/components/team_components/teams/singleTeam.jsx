@@ -5,16 +5,30 @@ import TeamCard from "./teamCard";
 import info from "./info.json";
 
 const SingleTeam = (props) => {
+  const truncateTitle = (title) => {
+    return title.length > 16 ? `${title.slice(0, 16)}...` : title;
+  };
+  const getTitleFontSize = (title) => {
+    const length = title.length;
+    if (length <= 10) return "text-3xl";
+    if (length <= 16) return "text-2xl";
+    return "text-lg";
+  };
+  const truncatedTitle = truncateTitle(props.title);
+  const titleFontSizeClass = getTitleFontSize(truncatedTitle);
+
   return (
     <div className="mt-10">
       <div className="m-auto relative w-1/4">
         <img src={Rec1} />
         <img src={Rec2} className="absolute top-4 left-9" />
-        <h1 className="absolute top-7 left-24 text-4xl font-bold -rotate-3 text-white">
-          {props.title}
+        <h1
+          className={`absolute top-8 left-[4.2rem] font-bold -rotate-3 text-white ${titleFontSizeClass}`}
+        >
+          {truncatedTitle}
         </h1>
       </div>
-      <div className="team grid grid-cols-5 gap-5">
+      <div className="team grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
         {info.map((item) => (
           <TeamCard
             key={item.id}
