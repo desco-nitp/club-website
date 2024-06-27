@@ -80,11 +80,11 @@ const Faq = () => {
           <div className="w-12 h-12 rounded-[1.5rem] bg-[#FE3D4D] border-2 border-black absolute -bottom-8 right-16"></div>
           <img
             className="w-24 hidden lg:block absolute right-16 top-4"
-            src={QuestionMark}
+            src={QuestionMark} alt=""
           ></img>
           <img
             className="w-28 hidden lg:block absolute left-72 top-16"
-            src={Arrow}
+            src={Arrow} alt=""
           ></img>
         </div>
         <div className="align-middle text-center text-3xl md:text-4xl lg:text-5xl font-black">
