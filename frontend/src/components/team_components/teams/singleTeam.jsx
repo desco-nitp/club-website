@@ -20,8 +20,8 @@ const SingleTeam = (props) => {
   return (
     <div className="mt-10">
       <div className="m-auto relative w-1/4">
-        <img src={Rec1} />
-        <img src={Rec2} className="absolute top-4 left-9" />
+        <img src={Rec1} alt="" />
+        <img src={Rec2} alt="" className="absolute top-4 left-9" />
         <h1
           className={`absolute top-8 left-[4.2rem] font-bold -rotate-3 text-white ${titleFontSizeClass}`}
         >
