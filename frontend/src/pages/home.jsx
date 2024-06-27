@@ -1,6 +1,8 @@
-import React,{useEffect} from "react";
-import { firestore } from "../firebase";
-import {getDocs, collection,doc} from "@firebase/firestore"
+import React
+//, {useEffect} 
+from "react";
+// import { firestore } from "../firebase";
+// import {getDocs, collection,doc} from "@firebase/firestore"
 // // import env from "react-dotenv";
 import NavBar from "../components/navbar/navbar";
 import Faq from "../components/faq/faq";
@@ -14,30 +16,30 @@ import Provide from "../components/provide/provide";
 
 
 function HomePage() {
-  const r=collection(firestore,"users");
-  // const docRef=doc(firestore,"users","1");
-  useEffect(()=>{
+  // const r=collection(firestore,"users");
+  // // const docRef=doc(firestore,"users","1");
+  // useEffect(()=>{
 
-    async function main(){
+  //   async function main(){
 
-      try{
+  //     try{
 
-      const docSnap=await getDocs(r);
-      // const docSnap2 = await getDoc(docRef);
-      if(docSnap!=null){
-        docSnap.forEach((doc)=>{
-            console.log(doc.id, " => ", doc.data().name);
-        })
-      }else{
-        console.log("data not exists");
-      }
-      }catch(e){
-        console.log("catch block says:")
-        console.log(e);
-      }
-  }
-  main();
-  },[]);
+  //     const docSnap=await getDocs(r);
+  //     // const docSnap2 = await getDoc(docRef);
+  //     if(docSnap!=null){
+  //       docSnap.forEach((doc)=>{
+  //           console.log(doc.id, " => ", doc.data());
+  //       })
+  //     }else{
+  //       console.log("data not exists");
+  //     }
+  //     }catch(e){
+  //       console.log("catch block says:")
+  //       console.log(e);
+  //     }
+  // }
+  // main();
+  // },[]);
 
   return (
     <main className="bg-[#FEB5B5] h-[578vh] sm:h-[600vh] pt-6 ">
