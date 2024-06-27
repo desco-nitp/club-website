@@ -1,12 +1,12 @@
 import React from "react";
 import "../../../App.css"
 import circles from "./3circle.png";
-import arrow from "./Arrow.png"
+
 import flower from "./flower.png"
 import post from "./post.png"
 import conCircle from "./conccircle.png"
 const Feature=()=>{
-    const postImg="";
+    // const postImg="";
     return(
         
            

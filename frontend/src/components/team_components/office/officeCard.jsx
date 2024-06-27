@@ -9,7 +9,7 @@ const OfficeCard = (props) => {
       <div className=" h-[26rem] w-72 bg-[#FE3D4D] relative flex flex-col p-4 pb-8 rounded-[2rem] overflow-hidden m-auto my-0 lg:my-4 hover:opacity-85 md:hover:scale-95 lg:hover:scale-105 transition-all lg:scale-100 md:scale-90 scale-75">
         {/* Absolute  */}
         <div className="absolute top-0 -right-5">
-          <img src={Star} className=" w-4/5" />
+          <img src={Star} alt="" className=" w-4/5" />
         </div>
         {/* Non-Absolute */}
         <div className=" m-auto">
@@ -22,11 +22,11 @@ const OfficeCard = (props) => {
           </h2>
         </div>
         <div className="flex flex-row justify-between px-20">
-          <a href={props.ig} target="_blank">
-            <img src={Instagram} />
+          <a href={props.ig} target="_blank" rel="noopener noreferrer">
+            <img alt="" src={Instagram} />
           </a>
-          <a href={props.linkedin} target="_blank">
-            <img src={Linkedin} />
+          <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
+            <img alt="" src={Linkedin} />
           </a>
         </div>
         {/* <div className=" h-[26rem] w-72 bg-[#000000] absolute rounded-[2rem] -bottom-4 -right-4 -z-10"></div> */}

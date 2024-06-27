@@ -28,11 +28,11 @@ const TeamCard = (props) => {
           </h2>
         </div>
         <div className="flex flex-row justify-between px-8 md:px-12 lg:px-16">
-          <a href={props.ig} target="_blank">
-            <img src={Instagram} className="lg:w-max w-2/3" />
+          <a href={props.ig} target="_blank" rel="noopener noreferrer">
+            <img src={Instagram} alt="" className="lg:w-max w-2/3" />
           </a>
-          <a href={props.linkedin} target="_blank">
-            <img src={Linkedin} className="lg:w-max w-2/3" />
+          <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
+            <img src={Linkedin} alt="" className="lg:w-max w-2/3" />
           </a>
         </div>
         {/* <div className=" h-[26rem] w-72 bg-[#000000] absolute rounded-[2rem] -bottom-4 -right-4 -z-10"></div> */}
