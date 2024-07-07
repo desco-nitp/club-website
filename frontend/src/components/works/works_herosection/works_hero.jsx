@@ -54,7 +54,7 @@ const WorkHero = () => {
                         <img src={V2} alt="Vector" className="h-[4rem] sm:h-[6rem] lg:h-[8rem] xl:h-[10rem]"/>
                     </div>
                     <div className="relative z-0  lg:-right-14 xl:-right-5 lg:top-4 xl:top-2 ">
-                        <img src={Circle} alt="Circle" className="h-[18rem] sm:h-[24rem] lg:h-[26rem] xl:h-[35rem]"/>
+                        <img src={Circle} alt="Circle" className="h-[18rem] sm:h-[24rem] mt-10 md:mt-0 lg:h-[26rem] xl:h-[35rem]"/>
                     </div>
                 </div>
             </div>
