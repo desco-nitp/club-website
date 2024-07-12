@@ -12,7 +12,7 @@ import UpcomingEventBanner from '../components/events/upcoming_banner'
 function EventsPage() {
   return (
     
-    <main className="bg-[#FEB5B5] h-[375vh] pt-6 ">
+    <main className="bg-[#FEB5B5] md:h-[375vh] pt-6 ">
       <NavBar />
       <Events />
       <EventBanner imageCount={3} />
