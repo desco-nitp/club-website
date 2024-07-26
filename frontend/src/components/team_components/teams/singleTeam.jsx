@@ -16,7 +16,7 @@ const SingleTeam = (props) => {
   };
   const truncatedTitle = truncateTitle(props.title);
   const titleFontSizeClass = getTitleFontSize(truncatedTitle);
-
+  // console.log(props.data);
   return (
     <div className="mt-10">
       <div className="m-auto relative w-1/4">
@@ -29,15 +29,15 @@ const SingleTeam = (props) => {
         </h1>
       </div>
       <div className="team grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
-        {info.map((item) => (
+        {props.data.length>0 && (props.data).map((item) => (
           <TeamCard
             key={item.id}
             name={item.name}
-            designation={item.designation}
-            img={require(`${item.img}`)}
+            designation={item.position}
+            img={item.imageURL}
             altText={`Image ${item.id}`}
-            ig={item.ig}
-            linkedin={item.linkedin}
+            ig={item.instaID}
+            linkedin={item.linkedinID}
           />
         ))}
       </div>
