@@ -13,7 +13,7 @@ function TeamPage() {
       <Office className="m-auto" />
       <Teams />
       <div className="mt-28">
-        <Footer />
+      <Footer />
       </div>
     </main>
   );
