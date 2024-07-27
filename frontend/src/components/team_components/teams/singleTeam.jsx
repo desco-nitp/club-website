@@ -28,7 +28,7 @@ const SingleTeam = (props) => {
           {truncatedTitle}
         </h1>
       </div>
-      <div className="team grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
+      <div className="team  flex justify-center gap-12 flex-wrap ">
         {props.data.length>0 && (props.data).map((item) => (
           <TeamCard
             key={item.id}

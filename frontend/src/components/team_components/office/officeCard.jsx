@@ -12,12 +12,12 @@ const OfficeCard = (props) => {
           <img src={Star} alt="" className=" w-4/5" />
         </div>
         {/* Non-Absolute */}
-        <div className=" m-auto">
-          <img src={props.img} alt={props.altText} />
+        <div className=" m-auto ">
+          <img src={props.img} alt={props.altText} className=" rounded-full  outline-[3.5px] outline  h-44 w-44 mt-2" />
         </div>
-        <div className="flex flex-col m-auto">
-          <h1 className=" font-bold text-2xl text-center">{props.name}</h1>
-          <h2 className=" font-semibold text-xl text-center">
+        <div className="flex flex-col h-32  py-4">
+          <h1 className=" font-bold text-2xl text-center justify-self-start">{props.name}</h1>
+          <h2 className=" font-semibold text-lg text-center">
             {props.designation}
           </h2>
         </div>

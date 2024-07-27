@@ -4,6 +4,7 @@ import info from "./info.json";
 import fetchTeamData from "../../../controller/teams";
 const Office = () => {
   const [data,setdata]=useState([]);
+  
   useEffect(()=>{
     async function getData(){
       const d=await fetchTeamData("teams","office");
