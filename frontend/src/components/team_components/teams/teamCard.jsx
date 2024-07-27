@@ -6,7 +6,7 @@ import Linkedin from "./LinkedIn.svg";
 const TeamCard = (props) => {
   return (
     <div>
-      <div className=" h-[16rem] w-52 md:h-[18rem] md:w-56 lg:h-[22rem] lg:w-64 bg-[#FE3D4D] relative flex flex-col p-3 pb-4 rounded-[1.7rem] overflow-hidden m-auto my-3 hover:opacity-90 hover:scale-105 transition-all">
+      <div className=" h-[16rem]  w-52 md:h-[18rem] md:w-56 lg:h-[22rem] lg:w-64 bg-[#FE3D4D] relative flex flex-col p-3 pb-6 rounded-[1.7rem] overflow-hidden m-auto my-3 hover:opacity-90 hover:scale-105 transition-all">
         {/* Absolute 
         <div className="absolute top-0 -right-5">
           <img src={Star} className=" w-4/5" />
@@ -16,7 +16,7 @@ const TeamCard = (props) => {
           <img
             src={props.img}
             alt={props.altText}
-            className=" w-2/3 lg:w-max m-auto"
+            className="   m-auto rounded-full h-28 w-28 md:h-32 md:w-32 lg:h-44 lg:w-44 border-[3.0px] border-black "
           />
         </div>
         <div className="flex flex-col m-auto">
