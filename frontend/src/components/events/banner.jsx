@@ -4,8 +4,8 @@ import Sparkles from "./Sparkles.png";
 
 function EventBanner({ imageCount }) {
   return (
-    <div className="mt-32 relative bg-[#FE3D4D] py-12 px-4 mb-20 mx-10 md:mb-32 md:mx-16 rounded-2xl border-[3px] border-black border-b-[10px] border-r-[10px] flex flex-col items-center">
-         <div className="absolute top-[-84px] right-[-32px]">
+    <div className="md:mt-32 relative bg-[#FE3D4D] py-12 px-4 mb-20 mx-10 md:mb-32 md:mx-16 rounded-2xl border-[3px] border-black border-b-[10px] border-r-[10px] flex flex-col items-center">
+         <div className="absolute right-[-15px] top-[-30px] md:top-[-84px] md:right-[-32px]">
         <img
           src={Sparkles}
           alt="Sparkles"
@@ -16,7 +16,7 @@ function EventBanner({ imageCount }) {
         <img
         src={pastevents}
         alt="Past Events"
-        className="absolute top-0 left-52 transform -translate-x-1/2 -translate-y-1/2 mt-4 ml-4 w-12 h-12 md:w-8/12 md:h-48 z-10"
+        className="absolute top-0 left-24 md:left-52 transform -translate-x-1/2 -translate-y-1/2 mt-4 ml-4 w-54 h-24 md:w-8/12 md:h-48 z-10"
       />
         </div>
       {Array.from({ length: imageCount }).map((_, index) => (
