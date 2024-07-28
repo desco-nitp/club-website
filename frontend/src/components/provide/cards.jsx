@@ -20,26 +20,29 @@ const Card = () => {
     <h2>01</h2> 
     <h3 className="font-bold text-4xl text-black-500">Graphic Design 
     </h3>
-    <p  className='font-medium text-lg mt-2'>We create visual concepts, for applications such as advertisements, brochures, magazines and reports</p>
+    <p  className='font-bold text-lg mt-2'>We create visual concepts, for applications such as advertisements, brochures, magazines and reports</p>
+  </div>
+</div>
+
+
+<div className="card" id="card3">
+  <div className="content">
+    <h2>02</h2>
+    <h3 className="font-bold text-4xl text-white">UI/UX</h3>
+    <p  className='font-bold text-white text-lg mt-2'>We collaborate and create user interface for apps, websites or other interactive media</p>
   </div>
 </div>
 
 <div className="card" id="card2">
   <div className="content">
-    <h2>02</h2>
-    <h3 className="font-bold text-4xl text-white">Digital Art</h3>
-    <p className='font-medium text-white text-lg mt-2'>We combine technology and imagination to create media like animation, interactive elements, or 2-D or 3-D models</p>
+    <h2>03</h2>
+    <h3 className="font-bold text-4xl text-black-500">Digital Art</h3>
+    <p className='font-bold text-lg mt-2'>We combine technology and imagination to create media like animation, interactive elements, or 2-D or 3-D models</p>
   </div>
+</div>
 </div>
 
-<div className="card" id="card3">
-  <div className="content">
-    <h2>03</h2>
-    <h3 className="font-bold text-4xl text-black-500">UI/UX</h3>
-    <p  className='font-medium text-lg mt-2'>We collaborate and create user interface for apps, websites or other interactive media</p>
-  </div>
-</div>
-</div>
+
   );
 };
 

@@ -9,10 +9,10 @@ function UpcomingEventBanner({ imageCount }) {
         <img
           src={upcomingevents}
           alt="Upcoming Events"
-          className="absolute top-0 right-[-540px] transform -translate-x-1/2 -translate-y-1/2 mt-4 ml-4 w-12 h-12 md:w-8/12 md:h-52 z-10"
+          className="absolute top-0 right-[-220px] md:right-[-540px] transform -translate-x-1/2 -translate-y-1/2 mt-4 ml-4 w-54 h-24 md:w-8/12 md:h-52 z-10"
         />
       </div>
-      <div className="absolute top-[-84px] left-[-20px]">
+      <div className="absolute top-[-24px] md:top-[-84px] left-[-20px]">
         <img
           src={circles}
           alt="circles"
