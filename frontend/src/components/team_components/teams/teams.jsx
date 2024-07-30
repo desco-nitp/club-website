@@ -10,6 +10,7 @@ const Teams = () => {
   const [VFXData,setVFXData]=useState([]);
   const [PhotographyNVideographyData,setPhotographynVideoGraphyData]=useState([]);
   const [PRData,setPRData]=useState([]);
+  const [InfluencesData,setInfluencerData]=useState([]);
   const [isLoading,setIsLoading]=useState(false);
   useEffect(()=>{
     async function getData(){
@@ -20,6 +21,7 @@ const Teams = () => {
       const vfx=await fetchTeamData("teams","motion");
       const photography= await fetchTeamData("teams","photography_videography");
       const PR=await fetchTeamData("teams","PR");
+      const Influencer=await fetchTeamData("teams","influencer");
       console.log(digital_art);
       setUiUxData(uiux);
       setCreativeWritingData(creativewriting);
@@ -28,6 +30,7 @@ const Teams = () => {
       setPRData(PR);
       setPhotographynVideoGraphyData(photography);
       setVFXData(vfx);
+      setInfluencerData(Influencer);
       setIsLoading(true);
     }
     getData()
@@ -36,18 +39,18 @@ const Teams = () => {
 
   )
   useEffect(()=>{
-    // console.log(PRData);
-  },[PRData]);
+    console.log(InfluencesData);
+  },[InfluencesData]);
   return (
     <div className="pt-8">
       {UiUxData.length>0 && <SingleTeam title="UI/UX" data={UiUxData}/> }
       {GraphicsData.length>0 && <SingleTeam title="Graphics" data={GraphicsData} /> }
       {DigitalArtData.length>0 && <SingleTeam title="Digital Art" data={DigitalArtData} /> }
       {VFXData.length>0 && <SingleTeam title="VFX" data={VFXData} /> }
+      {PRData.length>0 && <SingleTeam title="Public Relation" data={PRData} /> }
       {PhotographyNVideographyData.length>0 && <SingleTeam title="Photography & Videography" data={PhotographyNVideographyData} /> }
       {CreativeWritingData.length>0 && <SingleTeam title="Creative Writing" data={CreativeWritingData} /> }
-      {/* <SingleTeam title="Influencers" /> */}
-      {PRData.length>0 && <SingleTeam title="Public Relation" data={PRData} /> }
+      {InfluencesData.length>0 && <SingleTeam title="Influencers" data={InfluencesData}/>}
       {!isLoading && <Loader />}
     </div>
   );
