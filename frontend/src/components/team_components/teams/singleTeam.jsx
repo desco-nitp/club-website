@@ -5,17 +5,16 @@ import TeamCard from "./teamCard";
 
 const SingleTeam = (props) => {
   const truncateTitle = (title) => {
-    return title.length > 16 ? `${title.slice(0, 16)}...` : title;
+    return title.length > 15 ? `${title.slice(0, 15)}...` : title;
   };
   const getTitleFontSize = (title) => {
     const length = title.length;
     if (length <= 10) return "text-3xl";
-    if (length <= 16) return "text-2xl";
+    if (length <= 15) return "text-2xl";
     return "text-lg";
   };
   const truncatedTitle = truncateTitle(props.title);
   const titleFontSizeClass = getTitleFontSize(truncatedTitle);
-  // console.log(props.data);
   return (
     <div className="mt-10">
       <div className="m-auto relative w-1/4">
@@ -28,17 +27,18 @@ const SingleTeam = (props) => {
         </h1>
       </div>
       <div className="team  flex justify-center gap-12 flex-wrap ">
-        {props.data.length>0 && (props.data).map((item) => (
-          <TeamCard
-            key={item.id}
-            name={item.name}
-            designation={item.position}
-            img={item.imageURL}
-            altText={`Image ${item.id}`}
-            ig={item.instaID}
-            linkedin={item.linkedinID}
-          />
-        ))}
+        {props.data.length > 0 &&
+          props.data.map((item) => (
+            <TeamCard
+              key={item.id}
+              name={item.name}
+              designation={item.position}
+              img={item.imageURL}
+              altText={`Image ${item.id}`}
+              ig={item.instaID}
+              linkedin={item.linkedinID}
+            />
+          ))}
       </div>
     </div>
   );
