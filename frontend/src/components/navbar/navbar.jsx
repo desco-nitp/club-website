@@ -17,7 +17,7 @@ const NavBar=()=>{
         ;
       }
        return(
-        <TemporaryDrawer className=" ml-10 mb-20" />
+        <TemporaryDrawer className="z-40 ml-10 mb-20" />
        );
     
 }

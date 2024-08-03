@@ -2,7 +2,6 @@ import React from "react";
 import Rec1 from "./rec1.svg";
 import Rec2 from "./rec2.svg";
 import TeamCard from "./teamCard";
-import info from "./info.json";
 
 const SingleTeam = (props) => {
   const truncateTitle = (title) => {
