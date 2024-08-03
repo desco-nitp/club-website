@@ -1,6 +1,5 @@
 import React, { useEffect,useState } from "react";
 import OfficeCard from "./officeCard";
-import info from "./info.json";
 import fetchTeamData from "../../../controller/teams";
 const Office = () => {
   const [data,setdata]=useState([]);
