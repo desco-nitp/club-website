@@ -18,7 +18,7 @@ function Banner({ title, detail, images }){
                     <img src={Arrow} alt="Arrow" className=" w-8 sm:w-14"/>
                 </div>
             </div>
-            <img src={V1} alt="V1" className="absolute w-14 sm:w-16 md:w-20 lg:w-28 top-0 -right-2" />
+            <img src={V1} alt="V1" className="absolute w-[2.8rem] sm:w-14 md:w-16 lg:w-20 xl:w-24 top-0 -right-2" />
         </div>
     );
 }
