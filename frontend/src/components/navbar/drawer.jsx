@@ -9,6 +9,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { Link } from 'react-router-dom';
 
 
+
 export default function TemporaryDrawer() {
   const [open, setOpen] = React.useState(false);
   const toggleDrawer = (newOpen) => () => {
@@ -17,13 +18,13 @@ export default function TemporaryDrawer() {
 
   let pages=["/","/works","/events","/team","/blogs","/","/"];
   const DrawerList = (
-    <Box sx={{ width: 250 , height:1000}} style={{backgroundColor:"#000000"}} role="presentation" onClick={toggleDrawer(false)}>
+    <Box sx={{ width: 250 , height:1000 ,px:3,py:5}} style={{backgroundColor:"#F93949" }}  role="presentation" onClick={toggleDrawer(false)}>
       <List className='flex flex-col justify-center items-center gap-5 text-3xl'>
         {['Home', 'Works', 'Events', 'Teams','Blogs','Contact Us','FAQs'].map((text, index) => (
           <ListItem key={text} disablePadding style={{color:'#FFFFFF'}} >
           <Link to={pages[index]}>
             <ListItemButton >
-              <ListItemText primary={text}  />
+              <ListItemText primary={text} primaryTypographyProps={{fontSize: '1.7rem'}}  />
             </ListItemButton>
             </Link>
           </ListItem>
@@ -35,9 +36,9 @@ export default function TemporaryDrawer() {
 
   return (
     <div className='z-40'>
-    <button onClick={toggleDrawer(true)} className='h-10 w-10 bg-rose-100 ml-3'>
+    <button onClick={toggleDrawer(true)} className='absolute h-10 w-10 bg-[#fe3d4d] ml-3 rounded-md'>
 
-      <MoreVertOutlinedIcon  />
+      <MoreVertOutlinedIcon   />
     </button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
