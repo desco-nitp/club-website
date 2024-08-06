@@ -14,13 +14,13 @@ import "./style.css";
 const WorkHero = () => {
     return (
         <div className="flex flex-col items-center">
-            <div className="flex flex-col items-center w-full relative -top-[5rem] md:-top-[1.5rem]">
+            <div className="flex flex-col items-center w-full relative -top-[3rem] md:-top-[1.5rem]">
                 {/* Mobile Layout */}
                 <div className="flex flex-col items-center w-full md:hidden relative">
                     <div className="w-1/2 absolute right-0 rotate-180">
                         <img src={Cross} alt="Cross" className="inset-0 z-10 h-[14rem] sm:h-[18rem]" />
                     </div>
-                    <div className="flex flex-col items-center relative z-20 mt-20">
+                    <div className="flex flex-col items-center relative z-20 mt-24">
                         <div className="flex items-center">
                             <img src={V1} alt="Vector" className="h-[3.5rem] sm:h-[6rem] rotate-90 mr-4 sm:mr-8" />
                             <div className="text-center">
