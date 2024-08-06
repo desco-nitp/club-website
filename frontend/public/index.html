@@ -6,8 +6,8 @@
     <meta name="theme-color" content="#000000" />
 
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DesCo Website"
+      content="Website for Design Company NIT Patna"
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,11 +20,25 @@
       href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&amp;display=swap"
       rel="stylesheet"
     />
-    <title>React App</title>
+    <title>Design Company NIT Patna</title>
     <script id="react-dotenv" src="./env.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
+  <script type="text/javascript">
+    (function(){
+       emailjs.init({
+         publicKey: process.env.REACT_APP_PUBLIC_KEY,
+         blockHeadless: true,
+         limitRate: {
+        // Set the limit rate for the application
+        id: 'app',
+        // Allow 1 request per 10s
+        throttle: 20000,
+        },
+       });
+    })();
+ </script>
 </html>
