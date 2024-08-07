@@ -6,7 +6,7 @@ import Image from "./image";
 
 function Banner({ title, detail, images }){
     return (
-        <div className="bg-white relative p-2 sm:p-4 mb-20 mx-10 md:mb-32 md:mx-16 h-48 sm:h-60 md:h-72 lg:h-80 xl:h-96 rounded-2xl border-[3px] border-black border-b-[6px] border-r-[6px]">
+        <div className="bg-white relative p-2 sm:p-4 mb-20 mx-6 md:mb-32 sm:mx-10 lg:mx-16 h-[10rem] sm:h-52 md:h-64 lg:h-[19rem] xl:h-[22rem] rounded-2xl border-[3px] border-black border-b-[6px] border-r-[6px]">
             <div className=" bg-[#282828] text-white p-2 absolute -top-6 left-8 sm:-top-8 lg:-top-10 sm:left-12 h-9 w-32 sm:h-12 sm:w-44 lg:h-16 lg:w-52 -rotate-6 rounded-2xl flex items-center justify-center">
                 <div className="bowlby-one text-sm sm:text-lg lg:text-2xl text-bold">{title}</div>
             </div>
@@ -18,7 +18,7 @@ function Banner({ title, detail, images }){
                     <img src={Arrow} alt="Arrow" className=" w-8 sm:w-14"/>
                 </div>
             </div>
-            <img src={V1} alt="V1" className="absolute w-14 sm:w-16 md:w-20 lg:w-28 top-0 -right-2" />
+            <img src={V1} alt="V1" className="absolute w-[2.8rem] sm:w-14 md:w-16 lg:w-20 xl:w-24 top-0 -right-2" />
         </div>
     );
 }
